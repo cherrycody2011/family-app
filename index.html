@@ -1,0 +1,31 @@
+<html>
+    <head>
+   <title>family book</title>
+<link rel="stylesheet" href="The-family-book-e1417314391978.jpg">
+</head>
+<body style="text-align: canter;">
+<h1>my family book</h1>
+<img src=" style="width: 300px; height: 350px; id="family_member_image">
+<h4  id="family_member_name"></h4>
+   <button id="nextbutton" onclick="update();">next</button>
+<script>
+   var images=
+["https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX28936808.jpg","https://static.vecteezy.com/system/resources/previews/000/127/186/original/super-mom-vector-illustration.png","https://i.pinimg.com/236x/f8/5a/f6/f85af6de262ad347a8e5be5f5fb11db5.jpg","https://st3.depositphotos.com/4216129/17495/v/380/depositphotos_174950064-stock-illustration-comic-happy-flying-kid-in.jpg","https://st3.depositphotos.com/1005925/17922/v/1600/depositphotos_179227696-stock-illustration-super-grandma.jpg"];
+var names=
+["nj suresh","pratima suresh","siddharth suresh","shraddha suresh","kamala"];
+var i=0;
+function update()
+{
+   i++;
+   var numbers_of_family_member_in_array = 4
+   if(i > numbers_of_family_member_in_array)
+   {
+       i=0;}
+   var updatedImage = images[i];
+   var updatedName = names[i];
+   document.getElementById("family_member_image").src = updatedImage;
+   document.getElementById("family_member_name").innerHTML = updatedName;} 
+</script>
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+body{
+    background-color:lime;
+    color:neonlime;
+    border:solid;
+    }
+    h1{
+    color: sky blue;
+    text-decoration: underline;
+    }
+    img{
+    color: green;
+    border: solid;
+    }
+    h4{
+    color: sky blue;
+    }
+    #nextbutton{
+    background-color: yellow;
+    color: blue;
+    }
